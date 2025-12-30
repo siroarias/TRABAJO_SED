@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Dec 31 18:21:02 2024
+# Process ID: 13808
+# Current directory: C:/Users/USUARIO/Documents/sed_vivado/top_sin_sync
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30412 C:\Users\USUARIO\Documents\sed_vivado\top_sin_sync\top_sin_sync.xpr
+# Log file: C:/Users/USUARIO/Documents/sed_vivado/top_sin_sync/vivado.log
+# Journal file: C:/Users/USUARIO/Documents/sed_vivado/top_sin_sync\vivado.jou
+# Running On        :DESKTOP-3BLCDLP
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 7 5700U with Radeon Graphics         
+# CPU Frequency     :1797 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :33635 MB
+# Swap memory       :5100 MB
+# Total Virtual     :38735 MB
+# Available Virtual :31345 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/USUARIO/Documents/sed_vivado/top_sin_sync/top_sin_sync.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_top.tcl
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+run 50 s
+close_sim

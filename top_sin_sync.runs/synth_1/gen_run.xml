@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1765302771" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/top.dcp">
+  <File Type="PA-TCL" Name="top.tcl"/>
+  <File Type="REPORTS-TCL" Name="top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="top.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="top_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/Analizador.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Ascensor_trabajo/Ascensor_trabajo.srcs/sources_1/new/Analizador.vhd"/>
+        <Attr Name="ImportTime" Val="1734429411"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/FSM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Ascensor_trabajo/Ascensor_trabajo.srcs/sources_1/new/FSM.vhd"/>
+        <Attr Name="ImportTime" Val="1734429675"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Gestor_ascensor.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Ascensor_trabajo/Ascensor_trabajo.srcs/sources_1/new/Gestor_ascensor.vhd"/>
+        <Attr Name="ImportTime" Val="1734513254"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Gestor_entradas.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Ascensor_trabajo/Ascensor_trabajo.srcs/sources_1/new/Gestor_entradas.vhd"/>
+        <Attr Name="ImportTime" Val="1733919340"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Gestor_salidas.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Ascensor_trabajo/Ascensor_trabajo.srcs/sources_1/new/Gestor_salidas.vhd"/>
+        <Attr Name="ImportTime" Val="1734349807"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Motor.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Ascensor_trabajo/Ascensor_trabajo.srcs/sources_1/new/Motor.vhd"/>
+        <Attr Name="ImportTime" Val="1734263173"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Piso.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Ascensor_trabajo/Ascensor_trabajo.srcs/sources_1/new/Piso.vhd"/>
+        <Attr Name="ImportTime" Val="1734273093"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Puertas.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Ascensor_trabajo/Ascensor_trabajo.srcs/sources_1/new/Puertas.vhd"/>
+        <Attr Name="ImportTime" Val="1734345497"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Temp.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Ascensor_trabajo/Ascensor_trabajo.srcs/sources_1/new/Temp.vhd"/>
+        <Attr Name="ImportTime" Val="1734429765"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/edge_detector.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Ascensor_trabajo/Ascensor_trabajo.srcs/sources_1/new/edge_detector.vhd"/>
+        <Attr Name="ImportTime" Val="1733391074"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/sync.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Ascensor_trabajo/Ascensor_trabajo.srcs/sources_1/new/sync.vhd"/>
+        <Attr Name="ImportTime" Val="1733913105"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/top.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Ascensor_trabajo/Ascensor_trabajo.srcs/sources_1/new/top.vhd"/>
+        <Attr Name="ImportTime" Val="1734435409"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/sed_vivado/Nexys-4-DDR-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Nexys-4-DDR-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1729671052"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/top.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

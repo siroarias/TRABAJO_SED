@@ -1,0 +1,321 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Tue Dec  9 18:52:57 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+create_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:19 . Memory (MB): peak = 492.566 ; gain = 209.934
+Command: read_checkpoint -auto_incremental -incremental {C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/utils_1/imports/synth_1/top.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/utils_1/imports/synth_1/top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+WARNING: [Vivado_Tcl 4-1809] The reference checkpoint is from an old version of Vivado; A full resynthesis flow will be run
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 31400
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1201.098 ; gain = 494.582
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/top.vhd:24]
+INFO: [Synth 8-3491] module 'Gestor_entradas' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_entradas.vhd:8' bound to instance 'Inst_Gestor_entradas' of component 'Gestor_entradas' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/top.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'Gestor_entradas' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_entradas.vhd:24]
+INFO: [Synth 8-3491] module 'sync' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/sync.vhd:3' bound to instance 'Inst_sync1' of component 'sync' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_entradas.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'sync' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/sync.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'sync' (0#1) [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/sync.vhd:10]
+INFO: [Synth 8-3491] module 'sync' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/sync.vhd:3' bound to instance 'Inst_sync2' of component 'sync' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_entradas.vhd:53]
+INFO: [Synth 8-3491] module 'sync' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/sync.vhd:3' bound to instance 'Inst_sync3' of component 'sync' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_entradas.vhd:59]
+INFO: [Synth 8-3491] module 'sync' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/sync.vhd:3' bound to instance 'Inst_sync4' of component 'sync' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_entradas.vhd:65]
+INFO: [Synth 8-3491] module 'sync' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/sync.vhd:3' bound to instance 'Inst_sync5' of component 'sync' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_entradas.vhd:71]
+INFO: [Synth 8-3491] module 'edge_detector' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/edge_detector.vhd:4' bound to instance 'Inst_edge1' of component 'edge_detector' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_entradas.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'edge_detector' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/edge_detector.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'edge_detector' (0#1) [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/edge_detector.vhd:12]
+INFO: [Synth 8-3491] module 'edge_detector' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/edge_detector.vhd:4' bound to instance 'Inst_edge2' of component 'edge_detector' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_entradas.vhd:83]
+INFO: [Synth 8-3491] module 'edge_detector' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/edge_detector.vhd:4' bound to instance 'Inst_edge3' of component 'edge_detector' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_entradas.vhd:89]
+INFO: [Synth 8-3491] module 'edge_detector' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/edge_detector.vhd:4' bound to instance 'Inst_edge4' of component 'edge_detector' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_entradas.vhd:95]
+INFO: [Synth 8-3491] module 'edge_detector' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/edge_detector.vhd:4' bound to instance 'Inst_edge5' of component 'edge_detector' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_entradas.vhd:101]
+INFO: [Synth 8-256] done synthesizing module 'Gestor_entradas' (0#1) [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_entradas.vhd:24]
+INFO: [Synth 8-3491] module 'Gestor_ascensor' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_ascensor.vhd:5' bound to instance 'Inst_Gestor_ascensor' of component 'Gestor_ascensor' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/top.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'Gestor_ascensor' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_ascensor.vhd:22]
+INFO: [Synth 8-3491] module 'Analizador' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Analizador.vhd:5' bound to instance 'Inst_Analizador' of component 'Analizador' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_ascensor.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'Analizador' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Analizador.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Analizador' (0#1) [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Analizador.vhd:18]
+INFO: [Synth 8-3491] module 'Temporizador' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Temp.vhd:5' bound to instance 'Inst_Temporizador' of component 'Temporizador' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_ascensor.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'Temporizador' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Temp.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Temporizador' (0#1) [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Temp.vhd:13]
+INFO: [Synth 8-3491] module 'FSM' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/FSM.vhd:5' bound to instance 'Inst_FSM' of component 'FSM' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_ascensor.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'FSM' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/FSM.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'FSM' (0#1) [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/FSM.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'Gestor_ascensor' (0#1) [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_ascensor.vhd:22]
+INFO: [Synth 8-3491] module 'Gestor_salidas' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_salidas.vhd:5' bound to instance 'Inst_Gestor_salidas' of component 'Gestor_salidas' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/top.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'Gestor_salidas' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_salidas.vhd:19]
+INFO: [Synth 8-3491] module 'Motor' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Motor.vhd:4' bound to instance 'Inst_Motor' of component 'Motor' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_salidas.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'Motor' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Motor.vhd:12]
+INFO: [Synth 8-226] default block is never used [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Motor.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'Motor' (0#1) [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Motor.vhd:12]
+INFO: [Synth 8-3491] module 'Puertas' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Puertas.vhd:4' bound to instance 'Inst_Puertas' of component 'Puertas' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_salidas.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'Puertas' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Puertas.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Puertas' (0#1) [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Puertas.vhd:12]
+INFO: [Synth 8-3491] module 'Piso' declared at 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Piso.vhd:6' bound to instance 'Inst_Piso' of component 'Piso' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_salidas.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'Piso' [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Piso.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Piso' (0#1) [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Piso.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Gestor_salidas' (0#1) [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_salidas.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'top' (0#1) [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/top.vhd:24]
+WARNING: [Synth 8-6014] Unused sequential element piso_1_reg was removed.  [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Analizador.vhd:42]
+WARNING: [Synth 8-6014] Unused sequential element piso_2_reg was removed.  [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Analizador.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element piso_3_reg was removed.  [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Analizador.vhd:58]
+WARNING: [Synth 8-6014] Unused sequential element piso_4_reg was removed.  [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Analizador.vhd:66]
+WARNING: [Synth 8-6014] Unused sequential element piso_5_reg was removed.  [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Analizador.vhd:74]
+WARNING: [Synth 8-6014] Unused sequential element vector_almacenar_reg was removed.  [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Analizador.vhd:106]
+WARNING: [Synth 8-6014] Unused sequential element contador_reg was removed.  [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Temp.vhd:24]
+WARNING: [Synth 8-3848] Net abrir_cerrar in module/entity Gestor_ascensor does not have driver. [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_ascensor.vhd:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1310.301 ; gain = 603.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1310.301 ; gain = 603.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1310.301 ; gain = 603.785
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1310.301 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/constrs_1/imports/sed_vivado/Nexys-4-DDR-Master.xdc]
+Finished Parsing XDC File [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/constrs_1/imports/sed_vivado/Nexys-4-DDR-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/constrs_1/imports/sed_vivado/Nexys-4-DDR-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1384.734 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1384.734 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 1384.734 ; gain = 678.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 1384.734 ; gain = 678.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 1384.734 ; gain = 678.219
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'FSM'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  reposo |                           000001 |                              000
+                   bajar |                           000010 |                              101
+                  llegar |                           000100 |                              010
+                   abrir |                           001000 |                              011
+                  cerrar |                           010000 |                              100
+                   subir |                           100000 |                              001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'FSM'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:52 ; elapsed = 00:00:55 . Memory (MB): peak = 1384.734 ; gain = 678.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 6     
+	   4 Input   32 Bit       Adders := 1     
+	   2 Input   27 Bit       Adders := 1     
+	   3 Input    4 Bit       Adders := 5     
+	   2 Input    3 Bit       Adders := 7     
++---Registers : 
+	               32 Bit    Registers := 5     
+	               27 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 10    
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 9     
+	   6 Input   27 Bit        Muxes := 1     
+	   2 Input   15 Bit        Muxes := 1     
+	   6 Input    8 Bit        Muxes := 1     
+	  12 Input    7 Bit        Muxes := 1     
+	   6 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 1     
+	   3 Input    6 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 17    
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 8     
+	   3 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 1384.734 ; gain = 678.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:27 ; elapsed = 00:01:31 . Memory (MB): peak = 1514.473 ; gain = 807.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:27 ; elapsed = 00:01:31 . Memory (MB): peak = 1515.402 ; gain = 808.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5966] Removing register instance (\Inst_Gestor_ascensor/Inst_FSM/displays_piso_reg[2] ) from module (top) as it has self-loop and (\Inst_Gestor_ascensor/Inst_Analizador/piso_reg[2] ) is actual driver [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/FSM.vhd:41]
+INFO: [Synth 8-5966] Removing register instance (\Inst_Gestor_ascensor/Inst_FSM/displays_piso_reg[1] ) from module (top) as it has self-loop and (\Inst_Gestor_ascensor/Inst_Analizador/piso_reg[1] ) is actual driver [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/FSM.vhd:41]
+INFO: [Synth 8-5966] Removing register instance (\Inst_Gestor_ascensor/Inst_FSM/displays_piso_reg[0] ) from module (top) as it has self-loop and (\Inst_Gestor_ascensor/Inst_Analizador/piso_reg[0] ) is actual driver [C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/FSM.vhd:41]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:27 ; elapsed = 00:01:31 . Memory (MB): peak = 1544.008 ; gain = 837.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:42 ; elapsed = 00:01:46 . Memory (MB): peak = 1758.859 ; gain = 1052.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:42 ; elapsed = 00:01:46 . Memory (MB): peak = 1758.859 ; gain = 1052.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:42 ; elapsed = 00:01:47 . Memory (MB): peak = 1758.859 ; gain = 1052.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:42 ; elapsed = 00:01:47 . Memory (MB): peak = 1758.859 ; gain = 1052.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:42 ; elapsed = 00:01:47 . Memory (MB): peak = 1758.859 ; gain = 1052.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:42 ; elapsed = 00:01:47 . Memory (MB): peak = 1758.859 ; gain = 1052.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    83|
+|3     |LUT1   |    27|
+|4     |LUT2   |   118|
+|5     |LUT3   |    23|
+|6     |LUT4   |    11|
+|7     |LUT5   |    17|
+|8     |LUT6   |    57|
+|9     |FDRE   |   323|
+|10    |FDSE   |     1|
+|11    |IBUF   |    17|
+|12    |OBUF   |    27|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:42 ; elapsed = 00:01:47 . Memory (MB): peak = 1758.859 ; gain = 1052.344
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:13 ; elapsed = 00:01:40 . Memory (MB): peak = 1758.859 ; gain = 977.910
+Synthesis Optimization Complete : Time (s): cpu = 00:01:43 ; elapsed = 00:01:47 . Memory (MB): peak = 1758.859 ; gain = 1052.344
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1762.918 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 83 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1766.652 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: b1be55e4
+INFO: [Common 17-83] Releasing license: Synthesis
+70 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:55 ; elapsed = 00:02:05 . Memory (MB): peak = 1766.652 ; gain = 1261.652
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1766.652 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/34629/Desktop/TRABAJO VHDL ASCENSOR/top_sin_sync/top_sin_sync.runs/synth_1/top.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  9 18:55:34 2025...

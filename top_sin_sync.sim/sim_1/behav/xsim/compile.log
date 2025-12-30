@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USUARIO/Documents/sed_vivado/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/Gestor_salidas.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Gestor_salidas'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USUARIO/Documents/sed_vivado/top_sin_sync/top_sin_sync.srcs/sources_1/imports/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USUARIO/Documents/sed_vivado/top_sin_sync/top_sin_sync.srcs/sim_1/new/tb_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top'
